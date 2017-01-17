@@ -33,11 +33,7 @@
                                 </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIO-VC-tJj">
-                                <rect key="frame" x="16" y="110" width="343" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="Uob-Dj-e5c"/>
-                                    <constraint firstAttribute="height" constant="128" id="gPe-em-SUf"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="110" width="343" height="537"/>
                                 <attributedString key="attributedText">
                                     <fragment content="If I sang a silly song...">
                                         <attributes>
@@ -63,10 +59,13 @@
                         <color key="backgroundColor" red="0.28089397230000002" green="0.86181415900000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="fgx-Fl-JkT" secondAttribute="trailing" id="2sH-So-9mL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fIO-VC-tJj" secondAttribute="trailing" id="Okb-ap-icl"/>
                             <constraint firstAttribute="leadingMargin" secondItem="fgx-Fl-JkT" secondAttribute="leading" id="RXw-b8-AJf"/>
                             <constraint firstItem="fIO-VC-tJj" firstAttribute="centerX" secondItem="fgx-Fl-JkT" secondAttribute="centerX" id="Ruk-Jn-aL0"/>
                             <constraint firstItem="fgx-Fl-JkT" firstAttribute="top" secondItem="PWl-xQ-tPP" secondAttribute="bottom" constant="8" id="Szp-tZ-13n"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="fIO-VC-tJj" secondAttribute="leading" id="WUo-h5-hDg"/>
                             <constraint firstItem="PWl-xQ-tPP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-0.5" id="a7A-Dk-d4G"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fIO-VC-tJj" secondAttribute="bottom" constant="20" id="iHC-aE-Qut"/>
                             <constraint firstItem="PWl-xQ-tPP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="kg8-MG-oA6"/>
                             <constraint firstItem="fIO-VC-tJj" firstAttribute="top" secondItem="fgx-Fl-JkT" secondAttribute="bottom" constant="8" id="wsL-ap-caS"/>
                         </constraints>
